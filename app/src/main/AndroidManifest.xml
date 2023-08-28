@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
+    <uses-permission android:name="android.permission.INTERNET"/>
+
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -11,7 +13,32 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.NotasEnfermeria"
+        android:usesCleartextTraffic="true"
         tools:targetApi="31">
+        <activity
+            android:name=".horarioliquido"
+            android:exported="false" />
+        <activity
+            android:name=".eventoadverso"
+            android:exported="false" />
+        <activity
+            android:name=".gastos"
+            android:exported="false" />
+        <activity
+            android:name=".FCuidador"
+            android:exported="false" />
+        <activity
+            android:name=".Eliminada"
+            android:exported="false" />
+        <activity
+            android:name=".Recibida"
+            android:exported="false" />
+        <activity
+            android:name=".ControlLiquidos"
+            android:exported="false" />
+        <activity
+            android:name=".SignosVitales"
+            android:exported="false" />
         <activity
             android:name=".Equipos"
             android:exported="false" />
@@ -20,9 +47,6 @@
             android:exported="false" />
         <activity
             android:name=".NotasActivity"
-            android:exported="false" />
-        <activity
-            android:name=".Auxiliar"
             android:exported="false" />
         <activity
             android:name=".AsistenciaActivity"

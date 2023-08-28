@@ -5,9 +5,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/backgraound"
+    android:background="@drawable/backgroundfinal"
     tools:context=".MainActivity">
-    
+
     <TextView
         android:id="@+id/title"
         android:layout_width="244dp"
@@ -20,15 +20,15 @@
         android:textSize="28sp" />
 
     <GridLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
         android:id="@+id/gridLayout"
-        android:rowCount="2"
-        android:columnCount="3"
+        android:layout_width="405dp"
+        android:layout_height="815dp"
         android:layout_marginStart="10dp"
-        android:layout_marginEnd="10dp"
         android:layout_marginTop="20dp"
-        android:layout_marginBottom="80dp">
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="5dp"
+        android:columnCount="3"
+        android:rowCount="3">
 
         <androidx.cardview.widget.CardView
             android:id="@+id/Notas"
@@ -36,30 +36,30 @@
             android:layout_height="90dp"
             android:layout_row="0"
             android:layout_column="0"
-            android:layout_margin="8dp"
             android:layout_gravity="bottom"
+            android:layout_margin="8dp"
             app:cardCornerRadius="20dp"
             app:cardElevation="10dp">
 
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:orientation="vertical"
+                android:layout_gravity="center_vertical|center_horizontal"
                 android:gravity="center"
-                android:layout_gravity="center_vertical|center_horizontal">
+                android:orientation="vertical">
 
                 <ImageView
                     android:layout_width="50dp"
                     android:layout_height="50dp"
-                    android:src="@drawable/ic_baseline_notes_24"/>
+                    android:src="@drawable/ic_baseline_notes_24" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Notas"
-                    android:textColor="@color/Lavender"
                     android:textAlignment="center"
-                    android:textStyle="bold"/>
+                    android:textColor="@color/Lavender"
+                    android:textStyle="bold" />
 
             </LinearLayout>
         </androidx.cardview.widget.CardView>
@@ -70,30 +70,30 @@
             android:layout_height="90dp"
             android:layout_row="0"
             android:layout_column="1"
-            android:layout_margin="8dp"
             android:layout_gravity="bottom"
+            android:layout_margin="8dp"
             app:cardCornerRadius="20dp"
             app:cardElevation="10dp">
 
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:orientation="vertical"
+                android:layout_gravity="center_vertical|center_horizontal"
                 android:gravity="center"
-                android:layout_gravity="center_vertical|center_horizontal">
+                android:orientation="vertical">
 
                 <ImageView
                     android:layout_width="50dp"
                     android:layout_height="50dp"
-                    android:src="@drawable/ic_baseline_assignment_24"/>
+                    android:src="@drawable/ic_baseline_assignment_24" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Asistencias"
-                    android:textColor="@color/Lavender"
                     android:textAlignment="center"
-                    android:textStyle="bold"/>
+                    android:textColor="@color/Lavender"
+                    android:textStyle="bold" />
 
             </LinearLayout>
         </androidx.cardview.widget.CardView>
@@ -104,30 +104,30 @@
             android:layout_height="90dp"
             android:layout_row="0"
             android:layout_column="2"
-            android:layout_margin="8dp"
             android:layout_gravity="bottom"
+            android:layout_margin="8dp"
             app:cardCornerRadius="20dp"
             app:cardElevation="10dp">
 
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:orientation="vertical"
+                android:layout_gravity="center_vertical|center_horizontal"
                 android:gravity="center"
-                android:layout_gravity="center_vertical|center_horizontal">
+                android:orientation="vertical">
 
                 <ImageView
                     android:layout_width="50dp"
                     android:layout_height="50dp"
-                    android:src="@drawable/ic_baseline_medication_24"/>
+                    android:src="@drawable/ic_baseline_medication_24" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Registro Medicamentos"
-                    android:textColor="@color/Lavender"
                     android:textAlignment="center"
-                    android:textStyle="bold"/>
+                    android:textColor="@color/Lavender"
+                    android:textStyle="bold" />
 
             </LinearLayout>
         </androidx.cardview.widget.CardView>
@@ -145,22 +145,22 @@
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:orientation="vertical"
+                android:layout_gravity="center_vertical|center_horizontal"
                 android:gravity="center"
-                android:layout_gravity="center_vertical|center_horizontal">
+                android:orientation="vertical">
 
                 <ImageView
                     android:layout_width="50dp"
                     android:layout_height="50dp"
-                    android:src="@drawable/ic_baseline_monitor_heart_24"/>
+                    android:src="@drawable/ic_baseline_monitor_heart_24" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Signos Vitales"
-                    android:textColor="@color/Lavender"
                     android:textAlignment="center"
-                    android:textStyle="bold"/>
+                    android:textColor="@color/Lavender"
+                    android:textStyle="bold" />
 
             </LinearLayout>
         </androidx.cardview.widget.CardView>
@@ -178,28 +178,28 @@
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:orientation="vertical"
+                android:layout_gravity="center_vertical|center_horizontal"
                 android:gravity="center"
-                android:layout_gravity="center_vertical|center_horizontal">
+                android:orientation="vertical">
 
                 <ImageView
                     android:layout_width="50dp"
                     android:layout_height="50dp"
-                    android:src="@drawable/ic_baseline_health_and_safety_24"/>
+                    android:src="@drawable/ic_baseline_health_and_safety_24" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Equipos"
-                    android:textColor="@color/Lavender"
                     android:textAlignment="center"
-                    android:textStyle="bold"/>
+                    android:textColor="@color/Lavender"
+                    android:textStyle="bold" />
 
             </LinearLayout>
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
-            android:id="@+id/Alarmas"
+            android:id="@+id/ControlLiquidos"
             android:layout_width="115dp"
             android:layout_height="90dp"
             android:layout_row="1"
@@ -211,22 +211,121 @@
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:orientation="vertical"
+                android:layout_gravity="center_vertical|center_horizontal"
                 android:gravity="center"
-                android:layout_gravity="center_vertical|center_horizontal">
+                android:orientation="vertical">
 
                 <ImageView
                     android:layout_width="50dp"
                     android:layout_height="50dp"
-                    android:src="@drawable/ic_baseline_notifications_24"/>
+                    android:src="@drawable/ic_baseline_medication_liquid_24" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Alarmas"
-                    android:textColor="@color/Lavender"
+                    android:text="Control Liquidos"
                     android:textAlignment="center"
-                    android:textStyle="bold"/>
+                    android:textColor="@color/Lavender"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/Cuidador"
+            android:layout_width="115dp"
+            android:layout_height="90dp"
+            android:layout_row="2"
+            android:layout_column="0"
+            android:layout_margin="8dp"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="10dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:gravity="center"
+            android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/ic_baseline_child_care_24" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cuidador"
+            android:textAlignment="center"
+            android:textColor="@color/Lavender"
+            android:textStyle="bold" />
+
+        </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/EAdverso"
+            android:layout_width="115dp"
+            android:layout_height="90dp"
+            android:layout_row="2"
+            android:layout_column="1"
+            android:layout_margin="8dp"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="10dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/ic_baseline_airline_seat_flat_24" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Evento Adverso"
+                    android:textAlignment="center"
+                    android:textColor="@color/Lavender"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/Gastos"
+            android:layout_width="115dp"
+            android:layout_height="90dp"
+            android:layout_row="2"
+            android:layout_column="2"
+            android:layout_margin="8dp"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="10dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/ic_baseline_inventory_24" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="gastos"
+                    android:textAlignment="center"
+                    android:textColor="@color/Lavender"
+                    android:textStyle="bold" />
 
             </LinearLayout>
         </androidx.cardview.widget.CardView>

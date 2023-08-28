@@ -1,5 +1,7 @@
 package com.example.notasenfermeria;
 
+import androidx.appcompat.app.AppCompatActivity;
+
 import android.app.DatePickerDialog;
 import android.app.TimePickerDialog;
 import android.os.Bundle;
@@ -11,13 +13,10 @@ import android.widget.TextView;
 import android.widget.TimePicker;
 import android.widget.Toast;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import java.util.Calendar;
 import java.util.Date;
 
-public class NotasActivity extends AppCompatActivity implements View.OnClickListener {
-
+public class horarioliquido extends AppCompatActivity {
     Button bfecha,bhora,agregar;
     EditText efecha,ehora;
     private int dia,mes,ano,hora,minutos;
@@ -27,25 +26,25 @@ public class NotasActivity extends AppCompatActivity implements View.OnClickList
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_notas);
+        setContentView(R.layout.activity_horarioliquido);
         Date date = new Date();
 
         bfecha=(Button)findViewById(R.id.bfecha);
         bhora=(Button)findViewById(R.id.bhora);
         efecha=(EditText)findViewById(R.id.efecha);
         ehora=(EditText)findViewById(R.id.ehora);
-        bfecha.setOnClickListener(this);
-        bhora.setOnClickListener(this);
+        bfecha.setOnClickListener((View.OnClickListener) this);
+        bhora.setOnClickListener((View.OnClickListener) this);
         agregar= (Button) findViewById(R.id.agregar);
 
         agregar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(NotasActivity.this, "Nota Agregada", Toast.LENGTH_SHORT).show();
+                Toast.makeText(horarioliquido.this, "Hora Asignada", Toast.LENGTH_SHORT).show();
             }
         });
     }
-    @Override
+
     public void onClick(View v) {
         if (v == bfecha) {
             final Calendar c = Calendar.getInstance();
@@ -80,5 +79,5 @@ public class NotasActivity extends AppCompatActivity implements View.OnClickList
             }, hora, minutos, false);
             timePickerDialog.show();
         }
-        }
     }
+}

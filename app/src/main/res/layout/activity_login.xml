@@ -54,6 +54,8 @@
                     android:layout_height="70dp"
                     android:layout_marginTop="30dp"
                     android:text="Login"
+                    android:backgroundTint="@color/white"
+                    android:textColor="@color/black"
                     android:textSize="18sp"
                     app:cornerRadius="30dp" />
 
@@ -65,7 +67,7 @@
                     android:layout_marginTop="14dp"
                     android:padding="8dp"
                     android:text="No estas Registrado? Registrate"
-                    android:textColor="@color/Lavender"
+                    android:textColor="@color/white"
                     android:textSize="18sp" />
 
             </LinearLayout>

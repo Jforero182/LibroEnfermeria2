@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backsin"
+    tools:context=".FCuidador">
+
+    <TextView
+        android:id="@+id/higiene"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Higiene Bucal"
+        android:textColor="@color/black"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.052"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.326" />
+
+    <TextView
+        android:id="@+id/Alimentacion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Alimentación Oral"
+        android:textColor="@color/black"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.052"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.459" />
+
+    <TextView
+        android:id="@+id/baño"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Baño del Paciente"
+        android:textColor="@color/black"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.052"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.577" />
+
+    <TextView
+        android:id="@+id/aseo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Aseo Genital"
+        android:textColor="@color/black"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.051"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.695" />
+
+    <TextView
+        android:id="@+id/posicion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cambios Posicion"
+        android:textColor="@color/black"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.06"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.817" />
+
+    <EditText
+        android:id="@+id/editTextTextMultiLine"
+        android:layout_width="222dp"
+        android:layout_height="79dp"
+        android:background="@drawable/lavender_border"
+        android:ems="10"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.915"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.318" />
+
+    <EditText
+        android:id="@+id/editTextTextMultiLine3"
+        android:layout_width="222dp"
+        android:layout_height="79dp"
+        android:background="@drawable/lavender_border"
+        android:ems="10"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.915"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.455" />
+
+    <EditText
+        android:id="@+id/editTextTextMultiLine4"
+        android:layout_width="222dp"
+        android:layout_height="79dp"
+        android:background="@drawable/lavender_border"
+        android:ems="10"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.915"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.587" />
+
+    <EditText
+        android:id="@+id/editTextTextMultiLine5"
+        android:layout_width="222dp"
+        android:layout_height="79dp"
+        android:background="@drawable/lavender_border"
+        android:ems="10"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.915"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.717" />
+
+    <EditText
+        android:id="@+id/editTextTextMultiLine6"
+        android:layout_width="222dp"
+        android:layout_height="79dp"
+        android:background="@drawable/lavender_border"
+        android:ems="10"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.915"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.846" />
+
+    <Button
+        android:id="@+id/agregar"
+        android:layout_width="185dp"
+        android:layout_height="52dp"
+        android:backgroundTint="@color/Lavender"
+        android:textColor="@color/white"
+        android:text="Agregar"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.934" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

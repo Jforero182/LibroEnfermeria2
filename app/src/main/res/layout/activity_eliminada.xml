@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backsin"
+    tools:context=".Eliminada">
+
+    <TextView
+        android:id="@+id/ControlLiquidos"
+        android:layout_width="336dp"
+        android:layout_height="73dp"
+        android:gravity="center"
+        android:text="ELIMINADOS"
+        android:textColor="@color/black"
+        android:textSize="36sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.221" />
+
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="185dp"
+        android:layout_height="52dp"
+        android:backgroundTint="@color/Lavender"
+        android:text="Agregar"
+        android:textColor="@color/white"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.98" />
+
+    <com.google.android.material.circularreveal.CircularRevealFrameLayout
+        android:id="@+id/lienzo"
+        android:layout_width="265dp"
+        android:layout_height="132dp"
+        android:background="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.877" />
+
+    <EditText
+        android:id="@+id/clase"
+        android:layout_width="139dp"
+        android:layout_height="35dp"
+        android:background="@drawable/lavender_border"
+        android:ems="10"
+        android:inputType="text"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.68"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.529" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CLASE"
+        android:textColor="@color/black"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.072"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.521" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OTROS"
+        android:textColor="@color/black"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.073"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.43" />
+
+    <EditText
+        android:id="@+id/otros"
+        android:layout_width="139dp"
+        android:layout_height="35dp"
+        android:background="@drawable/lavender_border"
+        android:ems="10"
+        android:inputType="text"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.68"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.434" />
+
+    <EditText
+        android:id="@+id/clase2"
+        android:layout_width="139dp"
+        android:layout_height="35dp"
+        android:background="@drawable/lavender_border"
+        android:ems="10"
+        android:inputType="text"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.68"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.614" />
+
+    <EditText
+        android:id="@+id/orina"
+        android:layout_width="139dp"
+        android:layout_height="35dp"
+        android:background="@drawable/lavender_border"
+        android:ems="10"
+        android:inputType="text"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.68"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.344" />
+
+    <EditText
+        android:id="@+id/clase4"
+        android:layout_width="139dp"
+        android:layout_height="35dp"
+        android:background="@drawable/lavender_border"
+        android:ems="10"
+        android:inputType="text"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.68"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.698" />
+
+    <TextView
+        android:id="@+id/otros2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OTROS"
+        android:textColor="@color/black"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.073"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.618" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ORINA CC"
+        android:textColor="@color/black"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.078"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.354" />
+
+    <TextView
+        android:id="@+id/clase3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CLASE"
+        android:textColor="@color/black"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.072"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.701" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

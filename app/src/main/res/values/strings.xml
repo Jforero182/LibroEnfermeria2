@@ -1,5 +1,90 @@
 <resources>
     <string name="app_name">NotasEnfermeria</string>
     <string name="select">Select Item</string>
+    <string name="evolucion">Evolucion</string>
+
+    <string-array name="Tipo_Documento">
+        <item>C.C.</item>
+        <item>D.E.</item>
+        <item>C.D.</item>
+        <item>A.S.</item>
+        <item>N.V.</item>
+        <item>S.I.</item>
+        <item>P.T.</item>
+        <item>S.C.</item>
+        <item>C.N.</item>
+        <item>M.S.</item>
+        <item>P.E.</item>
+        <item>NIT</item>
+        <item>C.E.</item>
+        <item>R.C.</item>
+        <item>T.I.</item>
+        <item>P.A.</item>
+    </string-array>
+
+    <string-array name="Equipos">
+        <item>Fonendoscopio</item>
+        <item>Tensiómetro</item>
+        <item>Termómetro</item>
+        <item>Oxímetro</item>
+        <item>Aspirador</item>
+        <item>Nebulizador</item>
+        <item>Glucómetro</item>
+    </string-array>
+
+    <string-array name="Gastos">
+        <item>AGUJA HIPODERMICA</item>
+        <item>ALCOHOL ANTISEPTICO</item>
+        <item>APOSITO QUIRURGICO</item>
+        <item>BOLSA NUTRIFLO 1.5l</item>
+        <item>BOLSA RECOLECCION ORINA X 2.000mL</item>
+        <item>BRANULA INTRAVENOSO</item>
+        <item>BURETROL</item>
+        <item>CLORULO DE SODIO 0.9% 500ml</item>
+        <item>CUTICEL</item>
+        <item>EQUIPO MACROGOTEO</item>
+        <item>ESPADADRAPO HOSPITALARIO DE 4X10 YDS</item>
+        <item>GASA PRECORTADA ESTERIL</item>
+        <item>GUANTE EXAMEN</item>
+        <item>GUANTE ESTERIL</item>
+        <item>HOJILLA BISTURI</item>
+        <item>JABON QUIRURJICO</item>
+        <item>JERINGA 60 ML TIPO LIPO PUNTA CATERER</item>
+        <item>JERINGA DESECHABLE</item>
+        <item>KIT DE MICRONEBULIZADOR ADULTO</item>
+        <item>KIT DE MICRONEBULIZADOR NIÑO</item>
+        <item>LANCETAS</item>
+        <item>MASCARA PARA TRAQUEOSTOMIA ADULTO</item>
+        <item>MASCARA FACIAL C/ELASTICO "GLOBAL H"</item>
+        <item>MICROPORE 2 COLOR PIEL</item>
+        <item>SONDA(CATETER) SUCCION</item>
+        <item>SONDA FOLEY</item>
+        <item>SONDA NELATON</item>
+        <item>TAPON HEPARINIZADO</item>
+        <item>CANULA NASAL</item>
+        <item>TIRAS PARA GLUCOMETRO</item>
+        <item>MANGUERA DE SUCCION</item>
+        <item>URUFUNDA</item>
+        <item>VENDA ALGODON 5X5</item>
+        <item>VENDA DE GASA 4X5</item>
+        <item>VENDA ELASTICA</item>
+        <item>PAÑALES</item>
+    </string-array>
+
+    <string-array name="Asistenciia">
+        <item>Auxiliar</item>
+        <item>Familiar</item>
+        <item>Cuidador</item>
+
+    </string-array>
+
+    <string-array name="Evento">
+        <item>Evento Adversor</item>
+        <item>Incidente</item>
+        <item>Complicación</item>
+
+    </string-array>
+
 
 </resources>
+

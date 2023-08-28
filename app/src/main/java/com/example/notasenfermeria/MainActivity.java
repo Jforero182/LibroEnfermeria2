@@ -1,6 +1,5 @@
 package com.example.notasenfermeria;
 
-import androidx.activity.result.contract.ActivityResultContracts;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.cardview.widget.CardView;
 
@@ -8,16 +7,11 @@ import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Adapter;
-import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.AutoCompleteTextView;
 import android.widget.Button;
-import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
-
-    String[] item = {"C.C", "D.E", "C.D", "A.S", "N.V", "S.I", "P.T", "S.C", "C.N", "M.S", "P.E", "NIT", "C.E", "R.C", "T.I", "P.A"};
 
     AutoCompleteTextView autoCompleteTextView;
 
@@ -57,6 +51,14 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        imagesCard = findViewById(R.id.SignosVitales);
+        imagesCard.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MainActivity.this, SignosVitales.class));
+            }
+        });
+
 
         imagesCard = findViewById(R.id.Notas);
 
@@ -66,6 +68,42 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 startActivity(new Intent(MainActivity.this, NotasActivity.class));
             }
+
         });
+        imagesCard = findViewById(R.id.ControlLiquidos);
+        imagesCard.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MainActivity.this, ControlLiquidos.class));
+            }
+        });
+
+        imagesCard = findViewById(R.id.Cuidador);
+        imagesCard.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MainActivity.this, FCuidador.class));
+            }
+        });
+        imagesCard = findViewById(R.id.Gastos);
+        imagesCard.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MainActivity.this, gastos.class));
+            }
+        });
+
+        imagesCard = findViewById(R.id.EAdverso);
+        imagesCard.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MainActivity.this, eventoadverso.class));
+            }
+        });
+
     }
 }
